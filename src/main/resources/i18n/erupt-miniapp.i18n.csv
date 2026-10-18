@@ -1,0 +1,108 @@
+key,zh-CN,en-US
+Mini Program,小程序,Mini Program
+Mini Programs,小程序账号,Mini Programs
+Workspace,工作区,Workspace
+Users,用户,Users
+Subscribe templates,订阅消息模板,Subscribe templates
+Template library,公共模板库,Template library
+Subscriptions,订阅记录,Subscriptions
+Codes,小程序码,Codes
+Links,链接,Links
+Content checks,内容安全检测,Content checks
+Live rooms,直播间,Live rooms
+Inbox,消息与事件,Inbox
+Daily statistics,每日统计,Daily statistics
+Retention,留存,Retention
+Subscribe message log,订阅消息记录,Subscribe message log
+Name,名称,Name
+AppSecret,AppSecret,AppSecret
+Token,Token,Token
+EncodingAESKey,EncodingAESKey,EncodingAESKey
+Push format,消息推送格式,Push format
+Server URL,服务器地址,Server URL
+OpenID,OpenID,OpenID
+UnionID,UnionID,UnionID
+Phone,手机号,Phone
+Remark,备注,Remark
+Logins,登录次数,Logins
+First login,首次登录,First login
+Last login,最近登录,Last login
+Message,发消息,Message
+Send a message,发送消息,Send a message
+Text,文本,Text
+Kind,类型,Kind
+Scene code (unlimited),场景码（不限量）,Scene code (unlimited)
+"Path code (100,000 at most)",路径码（上限 10 万）,"Path code (100,000 at most)"
+Page,页面,Page
+Scene,场景值,Scene
+Width (px),宽度（px）,Width (px)
+Version,版本,Version
+Release,正式版,Release
+Trial,体验版,Trial
+Develop,开发版,Develop
+Code,小程序码,Code
+URL link (https),URL Link（https）,URL link (https)
+URL scheme (weixin://),URL Scheme（weixin://）,URL scheme (weixin://)
+Short link (inside WeChat),短链（微信内）,Short link (inside WeChat)
+Query,参数,Query
+Valid for (days),有效天数,Valid for (days)
+Title,标题,Title
+Link,链接,Link
+Template,模板,Template
+To,接收人,To
+Data,消息数据,Data
+Status,状态,Status
+Error,错误,Error
+Sent at,发送时间,Sent at
+Answer,用户选择,Answer
+Answered at,选择时间,Answered at
+Type,类型,Type
+Event,事件,Event
+Content,内容,Content
+Received at,接收时间,Received at
+Profile,资料,Profile
+Comment,评论,Comment
+Forum,论坛,Forum
+Social log,社交日志,Social log
+Verdict,结论,Verdict
+Label,标签,Label
+Trace ID,Trace ID,Trace ID
+Template ID,模板 ID,Template ID
+Example,示例,Example
+One-time,一次性,One-time
+Long-term,长期,Long-term
+Library template ID,模板库 ID,Library template ID
+Keyword IDs,关键词 ID,Keyword IDs
+Send,发送,Send
+Log,发送记录,Log
+Send subscribe message,发送订阅消息,Send subscribe message
+Category,类目,Category
+Library ID,模板库 ID,Library ID
+Keywords,关键词,Keywords
+Add to my templates,添加到我的模板,Add to my templates
+Room ID,直播间 ID,Room ID
+Cover,封面,Cover
+Anchor,主播,Anchor
+Live,直播中,Live
+Not started,未开始,Not started
+Ended,已结束,Ended
+Forbidden,禁播,Forbidden
+Paused,暂停,Paused
+Starts at,开始时间,Starts at
+Ends at,结束时间,Ends at
+Date,日期,Date
+Sessions,打开次数,Sessions
+Page views,访问次数,Page views
+Visitors,访问人数,Visitors
+New visitors,新用户,New visitors
+Stay per visitor (s),人均停留（秒）,Stay per visitor (s)
+Pages per session,平均访问深度,Pages per session
+Total users,累计用户,Total users
+Shares,分享次数,Shares
+Sharers,分享人数,Sharers
+Days later,留存天数,Days later
+New users retained,新增用户留存,New users retained
+Active users retained,活跃用户留存,Active users retained
+miniapp.api_failed,微信接口调用失败,WeChat API call failed
+miniapp.app_unknown,未知的小程序,Unknown Mini Program
+miniapp.appid_exists,AppID 已存在,AppID already exists

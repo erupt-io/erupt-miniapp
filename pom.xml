@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>erupt-miniapp</artifactId>
+    <name>Erupt : Mini Program</name>
+    <description>erupt miniapp → WeChat Mini Program admin: users, subscribe messages, codes and links, customer service, content checks and statistics, one app picked in the header</description>
+    <url>https://github.com/erupt-io/erupt-miniapp</url>
+
+    <parent>
+        <groupId>xyz.erupt</groupId>
+        <artifactId>erupt</artifactId>
+        <version>2.4.0</version>
+    </parent>
+
+    <properties>
+        <wx-java.version>4.8.0</wx-java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>xyz.erupt</groupId>
+            <artifactId>erupt-data-jpa</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <!-- The host application brings the erupt stack; here it also runs the standalone launcher -->
+        <dependency>
+            <groupId>xyz.erupt</groupId>
+            <artifactId>erupt-spring-boot-starter</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-miniapp</artifactId>
+            <version>${wx-java.version}</version>
+        </dependency>
+        <!-- The zero-config database of the launcher, and of a host application that sets none -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Tests stub the WeChat API with the JDK's HttpServer -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- A library: no repackaging, the plugin only serves `mvn spring-boot:run` -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring.boot.version}</version>
+                <executions>
+                    <execution>
+                        <id>repackage</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
